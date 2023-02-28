@@ -20,8 +20,8 @@ p:hover,h1:hover,button:hover{
 .navbar{
  display: flex;
  flex-direction: row;
- padding-top: 1cqmax;
- padding-inline: 10;
+ padding-top: 1cqi;
+ padding-inline: 5;
  align-items: stretch;
  width: 400px;
  justify-content: space-between;
@@ -38,12 +38,10 @@ a:link {
 	text-decoration: none; 
 
 }
-fo{}
-
 
 .button{
   display:inline-flexbox;
-	padding-top: 1cqmax;
+	padding-top: 0.6cqmax;
 	color: red;
 	
 }
@@ -67,28 +65,12 @@ padding-right: 1cm;
 justify-content: space-between;
 
 }
-.container{
-style="width:100%;"}
-/*
-.food{
-	width: 100%;
-	hight: auto;
-  position:static;
 
-}
-.food image{
-   width: 100%;
 
-}
-.food.text{
-position: absolute;
-color: black;
-
-}
-*/
 .text{
-	z-index: 999;
+	z-index: index 999; ;
 	margin-top: -300px;
+	padding-bottom:2cm;
 	text-align:center;
  position: relative;
  padding-left:20cm;
@@ -107,30 +89,45 @@ color: black;
 
 }
 .fooddy{
-	display:table-column;
-	padding-right 4px; 
-	color: rgb(63, 155, 235);
+	display:table-row;
+	position: absolute ; 
+	background-color: whitesmoke;
+}
+.fddybtn0{
+ background-color:rgb(16, 218, 40) ;
+
 }
 .foodsection1{
 display: flex;
 align-items: center;
-background-color: rgb(251, 249, 211);
+background-color: whitesmoke;
 
 }
 .sections{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-top: 3cm;
-	background-color:antiquewhite;
+	margin-top: 3rem;
+	background-color: whitesmoke;
 	
+}
+.fddybtn1{
+	background-color: rgb(250, 108, 108);
+}
+.sectionmenu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: whitesmoke;
 }
 .pizzas{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: space-between;
-	background-color: #c1bcbc;
+	align-items: center;
+	margin: 3cm;
+	margin-right:  3rem;
+	background-color: whitesmoke;
 }
 .pizza{
 	display: contents;
@@ -141,7 +138,7 @@ align-content: center;
 	display: block;
 	align-content: center;
 	font-size: small;
-	padding-bottom: 1cm;
+	padding-top: 1cm;
 
 }
 
@@ -149,9 +146,9 @@ align-content: center;
 .chaumines{
 display: flex;
 flex-direction: column;
+margin-top: 7rem;
 align-items: center;
-justify-content: space-between;
-background-color: #c1bcbc;
+	background-color: whitesmoke;
 }
 .chaumine{
 	display: contents;
@@ -163,19 +160,19 @@ align-content: center;
 	display: block;
 	font-size: small;
 	align-items: center;
-	padding-bottom: 1cm;
+	padding-top: 1cm;
 
 }
 .burgers{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
-	background-color: #c1bcbc;
+   margin-right: 3rem;
+	 margin-top: 7rem;
+	background-color: whitesmoke;
 }
 
 .burger{
-
 	display: contents;
 align-content: center;
 
@@ -184,7 +181,7 @@ align-content: center;
 	display: block;
 	align-content: center;
 	font-size: small;
-	padding-bottom: 1cm;
+	padding-top: 1cm;
 }
 
 .containers{
@@ -195,6 +192,7 @@ align-content: center;
  padding-right: 3cm;
  justify-content:space-between;
  text-decoration:double;
+ background-color: whitesmoke;
 
 }
 .containA{
@@ -271,16 +269,18 @@ align-content: center;
 	flex-direction: row; 
 	justify-content: space-between;
 	padding-top: 4cm;
+	background-color: whitesmoke;
 
 }
 .list1{
 	display: flex;
 	flex-direction: column;
 	padding-right: 5cm;
+	background-color: whitesmoke;
 
 }
 .listAA{
-
+	background-color: whitesmoke;
 	display: flex;
 	flex-direction: row;
 }
@@ -327,6 +327,7 @@ align-content: center;
 .Menu2{
 	display: flex;
 	flex-direction:column;
+	background-color: whitesmoke;
 
 }
 .list1a{
@@ -334,7 +335,8 @@ align-content: center;
 	flex-direction:row;
 	justify-content: space-between;
 	padding-top: 1cm;
-	padding-right: 2cm;
+	padding-right: 1cm;
+	background-color: whitesmoke;
 }
 .listttaaa{
 display: flex;
@@ -345,18 +347,22 @@ padding-left: 1cm;
 }
 .list1A{display: flex;
  flex-direction: row;
+ 
 }
 .list1aa{
 	display: flex;
   flex-direction: column;
+	padding-right: 1cm;
 }
 .list2a{
 	display: flex;
 	flex-direction: row ;
+
 }
 .list2b{
 	display: flex;
   flex-direction: column;
+	padding: left 0.9cm; ;
 }
 
 .list3a{
@@ -377,25 +383,30 @@ padding-left: 1cm;
 	flex-direction: row; 
 	justify-content: space-between;
 	padding-top: 1.5cm;
+	background-color: whitesmoke;
 
 }
 .lista1{
 	display: flex;
 	flex-direction: column;
 	padding-right: 5cm;
+	background-color: whitesmoke;
 
 }
 .list1A{display: flex;
  flex-direction: row;
  justify-content: space-between;
+ background-color: whitesmoke;
 }
 .list11a{
 	display: flex;
   flex-direction: column;
+	padding-right: 1cm;
 }
 .list22{
 	display: flex;
 	flex-direction: row;
+	background-color: whitesmoke;
 }
 .list22b{
 	display: flex;
@@ -405,19 +416,21 @@ padding-left: 1cm;
 .list33{
 	display: flex;
 	flex-direction: row;
+	background-color: whitesmoke;
 }
 .list33c{display: flex;
  flex-direction: column;
 
 }
 .tablemenu{
-	font-display: 200px;
  display: block;
 	text-align: center;
+	background-color: whitesmoke;
 }
 .table{
 	display: flex;
   flex-direction: row;
+	background-color: whitesmoke;
 	justify-content: space-between;
 	padding-left: 3cm;
 	padding-right: 3cm;
@@ -428,26 +441,29 @@ padding-left: 1cm;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #c1bcbc;
+	background-color: whitesmoke;
 	text-decoration:overline;
+	padding-left: 2cm;
 }
 .table1a{
 	display: flex;
 	flex-direction: column;
 justify-content: center;
-
+padding-left: 1.5cm;
 }
 
 .table2{
 	display: flex;
 	flex-direction:column;
 	align-items: center;
+	padding-left: 0.5cm;
 	text-decoration:overline;
-	background-color: #c1bcbc;
+	background-color: whitesmoke;
 	}
 	.table2b{
 		display: flex;
 	align-content: center;
+	padding-left: 1.5cm;
 }
 	
 .table3{
@@ -455,17 +471,20 @@ justify-content: center;
 	flex-direction: column;
 	padding-left: 0.5cm;
 	text-decoration:overline;
-	background-color: #c1bcbc;
+	background-color: whitesmoke;
 	}
 	.table3c{
-		display: contents;
-		padding-top: 1cm;
+		display: flexbox;
+		justify-content: center;
+		padding-left: 1cm;
+		padding-bottom: 1cm;
 	}
 	.news{
 		display: flex;
 		font-style: italic ;
 		align-items: center;
 		padding-top: 1cm;
+		background-color: whitesmoke;
 	}
 
 	.sectionA{
@@ -475,7 +494,7 @@ justify-content: center;
 		padding-top: 1cm;
 		padding-left: 3cm ;
 		padding-right: 3cm;
-		background-color:antiquewhite;
+		background-color: whitesmoke;
 		
 	}
 	.section1a{
@@ -483,7 +502,7 @@ justify-content: center;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		background-color: #c1bcbc;
+		background-color: whitesmoke;
 	}
 	.section1aa{
 		display: flex;
@@ -496,8 +515,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-background-color: #c1bcbc;
-}
+	background-color: whitesmoke;}
 .section2aa{
 	display: contents;
 align-content: center;
