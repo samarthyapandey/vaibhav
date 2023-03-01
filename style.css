@@ -20,10 +20,10 @@ p:hover,h1:hover,button:hover{
 .navbar{
  display: flex;
  flex-direction: row;
- padding-top: 1cqi;
- padding-inline: 5;
+  margin-top: 1rem;
+	margin-left: 5rem;
  align-items: stretch;
- width: 400px;
+ width: 600px;
  justify-content: space-between;
  
 }
@@ -40,8 +40,9 @@ a:link {
 }
 
 .button{
-  display:inline-flexbox;
-	padding-top: 0.6cqmax;
+  display:flexbox;
+	margin-top: .5rem;
+	margin-right: 8rem;
 	color: red;
 	
 }
@@ -58,10 +59,10 @@ a:link {
 }
 .main-header{
  background-color: #f5eeee;
-font-style: normal;
+font-style: italic;
 display: flex;
 flex-direction: row;
-padding-right: 1cm;
+margin-left: 2rem;
 justify-content: space-between;
 
 }
@@ -70,10 +71,10 @@ justify-content: space-between;
 .text{
 	z-index: index 999; ;
 	margin-top: -300px;
-	padding-bottom:2cm;
+	margin-bottom:2rem;
 	text-align:center;
  position: relative;
- padding-left:20cm;
+ margin-left:20cm;
 }
 .food>img{
 	object-fit: cover;
@@ -107,7 +108,7 @@ background-color: whitesmoke;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	background-color: whitesmoke;
 	
 }
@@ -138,7 +139,7 @@ align-content: center;
 	display: block;
 	align-content: center;
 	font-size: small;
-	padding-top: 1cm;
+	margin-top: 1cm;
 
 }
 
@@ -160,7 +161,7 @@ align-content: center;
 	display: block;
 	font-size: small;
 	align-items: center;
-	padding-top: 1cm;
+	margin-top: 1cm;
 
 }
 .burgers{
@@ -187,9 +188,8 @@ align-content: center;
 .containers{
  display:flex;
  flex-direction: row;
- padding-top: 2cm;
- padding-left: 3cm;
- padding-right: 3cm;
+ margin-left: 3cm;
+ margin-right: 3cm;
  justify-content:space-between;
  text-decoration:double;
  background-color: whitesmoke;
@@ -268,7 +268,7 @@ align-content: center;
 	display: flex;
 	flex-direction: row; 
 	justify-content: space-between;
-	padding-top: 4cm;
+	margin-top: 5cm;
 	background-color: whitesmoke;
 
 }
@@ -491,9 +491,9 @@ padding-left: 1.5cm;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		padding-top: 1cm;
-		padding-left: 3cm ;
-		padding-right: 3cm;
+		margin-top: 1rem;
+		margin-left: 3cm ;
+		margin-right: 3cm;
 		background-color: whitesmoke;
 		
 	}
@@ -501,12 +501,13 @@ padding-left: 1.5cm;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: stretch;
 		background-color: whitesmoke;
 	}
 	.section1aa{
 		display: flex;
 		align-items: center;
+		margin-bottom: 1cm;
 	align-content: center;
 	}
 
@@ -514,7 +515,7 @@ padding-left: 1.5cm;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-between;
+justify-content: stretch;
 	background-color: whitesmoke;}
 .section2aa{
 	display: contents;
@@ -525,9 +526,8 @@ align-content: center;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-between;
-background-color: #c1bcbc;
-}
+background-color: whitesmoke;}
+
 .section3aa{
 	display: contents;
 align-content: center;
@@ -536,8 +536,8 @@ align-content: center;
 	align-items: center;
 	display:inline-flexbox;
 	padding-top: 1cqmax;
-	color: aliceblue;
-}
+	background-color: whitesmoke;}
+
 .footersss{
 	display: flex;
 	flex-direction: row;
@@ -545,44 +545,5 @@ align-content: center;
 	padding-left: 3cm;
 	padding-right: 3cm;
 	padding-top: 1cm;
-	background-color: #f5eeee;
+	background-color: whitesmoke;
 }
-
-
-.container1{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
- }
- .navbar1{
-	display: flex;
-	flex-direction: row;
-	padding-top: 1cqmax;
-	padding-inline: 10;
-	padding-left: 5cm;
-  padding-right: 5cm;
-	align-items: stretch;
-	width: 780px;
-	justify-content: space-between;
-	
- }
-
- .button1{
-  display:inline-flexbox;
-	padding-top: 0.5cm;
-	color: red;
-	
-}
-.btnbook1{
-    background-color: aquamarine;
-	}
-
-	.main-header1{
-		background-color: #f5eeee;
-	 font-style: italic;
-	 display: flex;
-	 flex-direction: row;
-	 padding-right: 1cm;
-	 justify-content: space-between;
-	 
-	 }
