@@ -92,6 +92,7 @@ background-color: white;
 	padding: 1px 40px;
 	background-color: white;
 	border-color: red;
+	margin-left: 3rem;
 }
 .btn3:hover{
 background-color: red;
@@ -100,6 +101,7 @@ background-color: red;
 	padding: 1px 40px;
 	background-color: white;
 	border-color: red;
+	margin-left: 4rem;
 }
 .btn4:hover
 {
@@ -109,6 +111,7 @@ background-color: red;
 	padding: 1px 40px;
 	background-color: white;
 	border-color: red;
+	margin-left: 4rem;
 }
 .btn5:hover{
 background-color: red;
@@ -541,7 +544,7 @@ padding-left: 1cm;
 	display: flex;
 	flex-direction: column;
 justify-content: center;
-padding-left: 1.5cm;
+padding-left: 1cm;
 }
 
 .table2{
@@ -555,7 +558,8 @@ padding-left: 1.5cm;
 	.table2b{
 		display: flex;
 	align-content: center;
-	padding-left: 1.5cm;
+	justify-content: center;
+	padding-left: 1cm;
 }
 	
 .table3{
@@ -566,10 +570,10 @@ padding-left: 1.5cm;
 	background-color: whitesmoke;
 	}
 	.table3c{
-		display: flexbox;
+		display: flex;
 		justify-content: center;
-		padding-left: 1cm;
-		padding-bottom: 1cm;
+		align-items: center;
+		padding-left: 1rem;
 	}
 	.news{
 		display: flex;
